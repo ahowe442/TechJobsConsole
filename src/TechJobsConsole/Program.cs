@@ -118,7 +118,44 @@ namespace TechJobsConsole
 
         private static void PrintJobs(List<Dictionary<string, string>> someJobs)
         {
-            Console.WriteLine("PrintJobs is not implemented yet");
+            //Iterate over a list of jobs
+            for (int i = 0; i < someJobs.Count; i++)
+            {
+                //nested loop to iterate over each dictionary key
+                //TODO: 
+            
+            }
+
         }
     }
 }
+//foreach (KeyValuePair<string, string> job in someJobs)
+//{
+//    Console.WriteLine(job.Value);
+//}
+
+
+
+//foreach (string job in someJobs[i].Values)
+//{
+//    Console.WriteLine(job);
+//}
+
+
+//Console.WriteLine("*****" + "\n"
+//                    + "name: " + job.Value[1] + "\n"
+//                    + "employer: " + job.Value[2] + "\n"
+//                    + "location: " + job.Value[3] + "\n"
+//                    + "position type: " + job.Value[4] + "\n"
+//                    + "core competency: " + job.Value[5] + "\n"
+//                    + "***** ");
+
+
+
+//"*****" + "\n"
+//                                        + "name: " + job.Value + "\n"
+//                                        + "employer: " + job.Value + "\n"
+//                                        + "location: " + job.Value + "\n"
+//                                        + "position type: " + job.Value + "\n"
+//                                        + "core competency: " + job.Value + "\n"
+//                                        + "***** ");
