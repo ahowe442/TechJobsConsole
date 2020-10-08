@@ -159,3 +159,26 @@ namespace TechJobsConsole
 //                                        + "position type: " + job.Value + "\n"
 //                                        + "core competency: " + job.Value + "\n"
 //                                        + "***** ");
+
+
+//TechJobs in Java 
+//private static void printJobs(ArrayList<HashMap<String, String>> someJobs)
+//{
+//    if (someJobs.size() <= 0)
+//    {
+//        System.out.println("There are no listings available");
+
+//    }
+//    else
+//    {
+//        // Print list of skills, employers, etc
+//        System.out.println("\n*****");
+
+//        for (HashMap<String, String> someJob : someJobs) {
+//    for (Map.Entry<String, String> job : someJob.entrySet())
+//    {
+//        System.out.println(job.getKey() + " : " + job.getValue());
+//    }
+//    System.out.println("*****");
+//}
+//        }
