@@ -118,11 +118,26 @@ namespace TechJobsConsole
 
         private static void PrintJobs(List<Dictionary<string, string>> someJobs)
         {
-            //Iterate over a list of jobs
-            for (int i = 0; i < someJobs.Count; i++)
+            if (someJobs.Count <= 0)
             {
-                //nested loop to iterate over each dictionary key
-                //TODO: 
+                Console.WriteLine("There are no listings available");
+            }
+            else
+                
+            //Iterate over a list of jobs
+            foreach (var someJob in someJobs)
+            {
+                    //Print list of skills, employers, etc
+                    Console.WriteLine("\n*****");
+                    //nested loop to iterate over each dictionary key
+                    foreach (KeyValuePair<string, string> job in someJob)
+                {
+                    
+                    Console.WriteLine("{0} : {1}", job.Key, job.Value);
+                  
+                }
+                
+                
             
             }
 
