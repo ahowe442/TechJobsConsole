@@ -128,11 +128,11 @@ namespace TechJobsConsole
             foreach (var someJob in someJobs)
             {
                     //Print list of skills, employers, etc
-                    Console.WriteLine("\n*****");
-                    //nested loop to iterate over each dictionary key
+                    Console.WriteLine("*****");
+                    //nested loop to iterate over each dictionary key and value
                     foreach (KeyValuePair<string, string> job in someJob)
                 {
-                    
+                    //Uses shorthand code to print the key : value pairs of each job. 
                     Console.WriteLine("{0} : {1}", job.Key, job.Value);
                   
                 }
@@ -140,60 +140,8 @@ namespace TechJobsConsole
                 
             
             }
-
+            //Print list of skills, employers, etc
+            Console.WriteLine("*****");
         }
     }
 }
-//foreach (KeyValuePair<string, string> job in someJobs)
-//{
-//    Console.WriteLine(job.Value);
-//}
-
-
-
-//foreach (string job in someJobs[i].Values)
-//{
-//    Console.WriteLine(job);
-//}
-
-
-//Console.WriteLine("*****" + "\n"
-//                    + "name: " + job.Value[1] + "\n"
-//                    + "employer: " + job.Value[2] + "\n"
-//                    + "location: " + job.Value[3] + "\n"
-//                    + "position type: " + job.Value[4] + "\n"
-//                    + "core competency: " + job.Value[5] + "\n"
-//                    + "***** ");
-
-
-
-//"*****" + "\n"
-//                                        + "name: " + job.Value + "\n"
-//                                        + "employer: " + job.Value + "\n"
-//                                        + "location: " + job.Value + "\n"
-//                                        + "position type: " + job.Value + "\n"
-//                                        + "core competency: " + job.Value + "\n"
-//                                        + "***** ");
-
-
-//TechJobs in Java 
-//private static void printJobs(ArrayList<HashMap<String, String>> someJobs)
-//{
-//    if (someJobs.size() <= 0)
-//    {
-//        System.out.println("There are no listings available");
-
-//    }
-//    else
-//    {
-//        // Print list of skills, employers, etc
-//        System.out.println("\n*****");
-
-//        for (HashMap<String, String> someJob : someJobs) {
-//    for (Map.Entry<String, String> job : someJob.entrySet())
-//    {
-//        System.out.println(job.getKey() + " : " + job.getValue());
-//    }
-//    System.out.println("*****");
-//}
-//        }
